@@ -1,0 +1,30 @@
+.carrusel {
+    position: relative;
+    width: 100%;
+  }
+  
+  .carrusel-items {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+  }
+  
+  .carrusel .prev,
+  .carrusel .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .carrusel .prev {
+    left: 0;
+  }
+  
+  .carrusel .next {
+    right: 0;
+  }
+  

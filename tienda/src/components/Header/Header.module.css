@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #263143;
+    color: white;
+  }
+  
+  nav button {
+    background-color: #2D4263;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background-color: #1a1a1a;
+  }
+  
